@@ -1,0 +1,83 @@
+ 
+*{
+    background-color: black;
+    color: white;
+}
+.txt{
+    border: 2px solid white;
+    border-radius: 4px;
+    margin: 10px;
+    padding: 5px;
+    overflow: auto;
+}
+.send{
+    margin: 10px;
+    padding: 5px;
+    color: blueviolet;
+    font-size: 20px;
+    
+}
+.receive{
+    margin: 10px;
+    padding: 5px;
+    color: rgb(101, 226, 43);
+    font-size: 20px;
+    
+}
+.amount{
+    margin: 10px;
+    padding: 5px;
+    color: rgb(229, 255, 0);
+    font-size: 20px;
+
+}
+.main{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40%;
+     
+}
+.first{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5%;
+
+}
+.second{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+
+}
+.heads{
+    margin: 10px;
+    padding: 5px;
+    font-weight: 900;
+    color: aqua;
+     }
+
+.connect{
+    border: 2px solid white;
+    border-radius: 3px;
+    margin: 30px;
+    padding: 10px;
+}
+.box{
+    border: 1px ridge white;
+    padding: 0.5%;
+    width: 10%;
+    overflow: auto;
+
+}
+/* Styles for all screens */
+@media only screen and (min-width: 0px) and (max-width: 10000px) {
+    .main{
+        flex-direction: column;
+        gap: 3%;
+    }
+}
